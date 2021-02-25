@@ -1,0 +1,14 @@
+﻿  内建函数对象—逻辑仿函数.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\functional(72,1): warning C4804: “-”: 在操作中使用类型“bool”不安全
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\functional(71): message : 在编译 类 模板 成员函数“_Ty std::negate<_Ty>::operator ()(const _Ty &) const”时
+          with
+          [
+              _Ty=bool
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(3433): message : 查看对正在编译的函数 模板 实例化“_Ty std::negate<_Ty>::operator ()(const _Ty &) const”的引用
+          with
+          [
+              _Ty=bool
+          ]
+C:\Users\PC\Desktop\2_25\2_25\内建函数对象—逻辑仿函数.cpp(24): message : 查看对正在编译的 类 模板 实例化“std::negate<bool>”的引用
+  2_25.vcxproj -> C:\Users\PC\Desktop\2_25\Debug\2_25.exe
